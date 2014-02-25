@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w 
 use strict;
+use lib '/Users/mfeenstra/tmp/JSON-2.90/lib';
 use JSON;
-
 
 
 
@@ -20,11 +20,18 @@ foreach(@hosts) {
 
 
 
-	my $cmd = "curl -XGET 'http://$_:9200/_cluster/nodes/stats?pretty=true'";
-	my @status_out = `$cmd`;
+	#my $cmd = "curl -XGET 'http://$_:9200/_cluster/nodes/stats?pretty=true'";
+	#my @status_out = `$cmd`;
+
+	my @status_out = `cat curl.out`;
 
 	foreach(@status_out) {
-		print "$_";
+
+		if($_ =~ /(.*)/) {
+
+			print "$1\n";
+		}
+		#print "$_";
 	}
 
 }
