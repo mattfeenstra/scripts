@@ -1,0 +1,395 @@
+{
+  "cluster_name" : "rdcsrdev",
+  "master_node" : "KsEGmkejSY-6b1MxzgfvqA",
+  "blocks" : { },
+  "nodes" : {
+    "KsEGmkejSY-6b1MxzgfvqA" : {
+      "name" : "paz02app8824.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.233:9300]",
+      "attributes" : {
+        "master" : "true"
+      }
+    },
+    "cy7rjDGwQnuoaEtvFo6wQA" : {
+      "name" : "paz02app8826.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.235:9300]",
+      "attributes" : {
+        "master" : "true"
+      }
+    },
+    "b9hCkwbpT2WEg6Ftr5Xifw" : {
+      "name" : "paz02app8825.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.234:9300]",
+      "attributes" : {
+        "master" : "true"
+      }
+    }
+  },
+  "metadata" : {
+    "templates" : { },
+    "indices" : {
+      "for_sale_listing" : {
+        "state" : "open",
+        "settings" : {
+          "index.version.created" : "900599",
+          "index.number_of_replicas" : "2",
+          "index.number_of_shards" : "5"
+        },
+        "mappings" : {
+          "for_sale_listing" : {
+            "properties" : {
+              "id" : {
+                "type" : "string"
+              },
+              "baths" : {
+                "type" : "long"
+              },
+              "updated_date" : {
+                "format" : "dateOptionalTime",
+                "type" : "date"
+              },
+              "price" : {
+                "type" : "long"
+              },
+              "beds" : {
+                "type" : "long"
+              },
+              "reduced_date" : {
+                "format" : "dateOptionalTime",
+                "type" : "date"
+              },
+              "location" : {
+                "type" : "geo_point"
+              },
+              "listed_date" : {
+                "format" : "dateOptionalTime",
+                "type" : "date"
+              },
+              "age" : {
+                "type" : "long"
+              },
+              "open_house_date" : {
+                "format" : "dateOptionalTime",
+                "type" : "date"
+              },
+              "lot_sqft" : {
+                "type" : "long"
+              },
+              "sqft" : {
+                "type" : "long"
+              }
+            }
+          }
+        },
+        "aliases" : [ ]
+      },
+      "_percolator" : {
+        "state" : "open",
+        "settings" : {
+          "index.number_of_replicas" : "2",
+          "index.version.created" : "900599",
+          "index.number_of_shards" : "1",
+          "index.auto_expand_replicas" : "0-all"
+        },
+        "mappings" : {
+          "_default_" : {
+            "properties" : {
+              "query" : {
+                "enabled" : false,
+                "type" : "object"
+              }
+            }
+          },
+          "for_sale_listing" : {
+            "properties" : {
+              "query" : {
+                "enabled" : false,
+                "type" : "object"
+              }
+            }
+          }
+        },
+        "aliases" : [ ]
+      }
+    }
+  },
+  "routing_table" : {
+    "indices" : {
+      "for_sale_listing" : {
+        "shards" : {
+          "0" : [ {
+            "state" : "STARTED",
+            "primary" : false,
+            "node" : "KsEGmkejSY-6b1MxzgfvqA",
+            "relocating_node" : null,
+            "shard" : 0,
+            "index" : "for_sale_listing"
+          }, {
+            "state" : "STARTED",
+            "primary" : true,
+            "node" : "cy7rjDGwQnuoaEtvFo6wQA",
+            "relocating_node" : null,
+            "shard" : 0,
+            "index" : "for_sale_listing"
+          }, {
+            "state" : "STARTED",
+            "primary" : false,
+            "node" : "b9hCkwbpT2WEg6Ftr5Xifw",
+            "relocating_node" : null,
+            "shard" : 0,
+            "index" : "for_sale_listing"
+          } ],
+          "1" : [ {
+            "state" : "STARTED",
+            "primary" : false,
+            "node" : "KsEGmkejSY-6b1MxzgfvqA",
+            "relocating_node" : null,
+            "shard" : 1,
+            "index" : "for_sale_listing"
+          }, {
+            "state" : "STARTED",
+            "primary" : true,
+            "node" : "cy7rjDGwQnuoaEtvFo6wQA",
+            "relocating_node" : null,
+            "shard" : 1,
+            "index" : "for_sale_listing"
+          }, {
+            "state" : "STARTED",
+            "primary" : false,
+            "node" : "b9hCkwbpT2WEg6Ftr5Xifw",
+            "relocating_node" : null,
+            "shard" : 1,
+            "index" : "for_sale_listing"
+          } ],
+          "2" : [ {
+            "state" : "STARTED",
+            "primary" : false,
+            "node" : "KsEGmkejSY-6b1MxzgfvqA",
+            "relocating_node" : null,
+            "shard" : 2,
+            "index" : "for_sale_listing"
+          }, {
+            "state" : "STARTED",
+            "primary" : true,
+            "node" : "cy7rjDGwQnuoaEtvFo6wQA",
+            "relocating_node" : null,
+            "shard" : 2,
+            "index" : "for_sale_listing"
+          }, {
+            "state" : "STARTED",
+            "primary" : false,
+            "node" : "b9hCkwbpT2WEg6Ftr5Xifw",
+            "relocating_node" : null,
+            "shard" : 2,
+            "index" : "for_sale_listing"
+          } ],
+          "3" : [ {
+            "state" : "STARTED",
+            "primary" : false,
+            "node" : "KsEGmkejSY-6b1MxzgfvqA",
+            "relocating_node" : null,
+            "shard" : 3,
+            "index" : "for_sale_listing"
+          }, {
+            "state" : "STARTED",
+            "primary" : true,
+            "node" : "cy7rjDGwQnuoaEtvFo6wQA",
+            "relocating_node" : null,
+            "shard" : 3,
+            "index" : "for_sale_listing"
+          }, {
+            "state" : "STARTED",
+            "primary" : false,
+            "node" : "b9hCkwbpT2WEg6Ftr5Xifw",
+            "relocating_node" : null,
+            "shard" : 3,
+            "index" : "for_sale_listing"
+          } ],
+          "4" : [ {
+            "state" : "STARTED",
+            "primary" : false,
+            "node" : "KsEGmkejSY-6b1MxzgfvqA",
+            "relocating_node" : null,
+            "shard" : 4,
+            "index" : "for_sale_listing"
+          }, {
+            "state" : "STARTED",
+            "primary" : true,
+            "node" : "cy7rjDGwQnuoaEtvFo6wQA",
+            "relocating_node" : null,
+            "shard" : 4,
+            "index" : "for_sale_listing"
+          }, {
+            "state" : "STARTED",
+            "primary" : false,
+            "node" : "b9hCkwbpT2WEg6Ftr5Xifw",
+            "relocating_node" : null,
+            "shard" : 4,
+            "index" : "for_sale_listing"
+          } ]
+        }
+      },
+      "_percolator" : {
+        "shards" : {
+          "0" : [ {
+            "state" : "INITIALIZING",
+            "primary" : false,
+            "node" : "KsEGmkejSY-6b1MxzgfvqA",
+            "relocating_node" : null,
+            "shard" : 0,
+            "index" : "_percolator"
+          }, {
+            "state" : "STARTED",
+            "primary" : true,
+            "node" : "cy7rjDGwQnuoaEtvFo6wQA",
+            "relocating_node" : null,
+            "shard" : 0,
+            "index" : "_percolator"
+          }, {
+            "state" : "STARTED",
+            "primary" : false,
+            "node" : "b9hCkwbpT2WEg6Ftr5Xifw",
+            "relocating_node" : null,
+            "shard" : 0,
+            "index" : "_percolator"
+          } ]
+        }
+      }
+    }
+  },
+  "routing_nodes" : {
+    "unassigned" : [ ],
+    "nodes" : {
+      "KsEGmkejSY-6b1MxzgfvqA" : [ {
+        "state" : "STARTED",
+        "primary" : false,
+        "node" : "KsEGmkejSY-6b1MxzgfvqA",
+        "relocating_node" : null,
+        "shard" : 0,
+        "index" : "for_sale_listing"
+      }, {
+        "state" : "STARTED",
+        "primary" : false,
+        "node" : "KsEGmkejSY-6b1MxzgfvqA",
+        "relocating_node" : null,
+        "shard" : 1,
+        "index" : "for_sale_listing"
+      }, {
+        "state" : "STARTED",
+        "primary" : false,
+        "node" : "KsEGmkejSY-6b1MxzgfvqA",
+        "relocating_node" : null,
+        "shard" : 2,
+        "index" : "for_sale_listing"
+      }, {
+        "state" : "STARTED",
+        "primary" : false,
+        "node" : "KsEGmkejSY-6b1MxzgfvqA",
+        "relocating_node" : null,
+        "shard" : 3,
+        "index" : "for_sale_listing"
+      }, {
+        "state" : "STARTED",
+        "primary" : false,
+        "node" : "KsEGmkejSY-6b1MxzgfvqA",
+        "relocating_node" : null,
+        "shard" : 4,
+        "index" : "for_sale_listing"
+      }, {
+        "state" : "INITIALIZING",
+        "primary" : false,
+        "node" : "KsEGmkejSY-6b1MxzgfvqA",
+        "relocating_node" : null,
+        "shard" : 0,
+        "index" : "_percolator"
+      } ],
+      "cy7rjDGwQnuoaEtvFo6wQA" : [ {
+        "state" : "STARTED",
+        "primary" : true,
+        "node" : "cy7rjDGwQnuoaEtvFo6wQA",
+        "relocating_node" : null,
+        "shard" : 0,
+        "index" : "for_sale_listing"
+      }, {
+        "state" : "STARTED",
+        "primary" : true,
+        "node" : "cy7rjDGwQnuoaEtvFo6wQA",
+        "relocating_node" : null,
+        "shard" : 1,
+        "index" : "for_sale_listing"
+      }, {
+        "state" : "STARTED",
+        "primary" : true,
+        "node" : "cy7rjDGwQnuoaEtvFo6wQA",
+        "relocating_node" : null,
+        "shard" : 2,
+        "index" : "for_sale_listing"
+      }, {
+        "state" : "STARTED",
+        "primary" : true,
+        "node" : "cy7rjDGwQnuoaEtvFo6wQA",
+        "relocating_node" : null,
+        "shard" : 3,
+        "index" : "for_sale_listing"
+      }, {
+        "state" : "STARTED",
+        "primary" : true,
+        "node" : "cy7rjDGwQnuoaEtvFo6wQA",
+        "relocating_node" : null,
+        "shard" : 4,
+        "index" : "for_sale_listing"
+      }, {
+        "state" : "STARTED",
+        "primary" : true,
+        "node" : "cy7rjDGwQnuoaEtvFo6wQA",
+        "relocating_node" : null,
+        "shard" : 0,
+        "index" : "_percolator"
+      } ],
+      "b9hCkwbpT2WEg6Ftr5Xifw" : [ {
+        "state" : "STARTED",
+        "primary" : false,
+        "node" : "b9hCkwbpT2WEg6Ftr5Xifw",
+        "relocating_node" : null,
+        "shard" : 0,
+        "index" : "for_sale_listing"
+      }, {
+        "state" : "STARTED",
+        "primary" : false,
+        "node" : "b9hCkwbpT2WEg6Ftr5Xifw",
+        "relocating_node" : null,
+        "shard" : 1,
+        "index" : "for_sale_listing"
+      }, {
+        "state" : "STARTED",
+        "primary" : false,
+        "node" : "b9hCkwbpT2WEg6Ftr5Xifw",
+        "relocating_node" : null,
+        "shard" : 2,
+        "index" : "for_sale_listing"
+      }, {
+        "state" : "STARTED",
+        "primary" : false,
+        "node" : "b9hCkwbpT2WEg6Ftr5Xifw",
+        "relocating_node" : null,
+        "shard" : 3,
+        "index" : "for_sale_listing"
+      }, {
+        "state" : "STARTED",
+        "primary" : false,
+        "node" : "b9hCkwbpT2WEg6Ftr5Xifw",
+        "relocating_node" : null,
+        "shard" : 4,
+        "index" : "for_sale_listing"
+      }, {
+        "state" : "STARTED",
+        "primary" : false,
+        "node" : "b9hCkwbpT2WEg6Ftr5Xifw",
+        "relocating_node" : null,
+        "shard" : 0,
+        "index" : "_percolator"
+      } ]
+    }
+  },
+  "allocations" : [ ]
+}

@@ -1,0 +1,73 @@
+#!/usr/bin/perl -w
+use strict;
+use lib '/Users/mfeenstra/tmp/JSON-2.90/lib';
+use JSON;
+
+my $json_text = `cat curl3.out`;
+
+#my $json_text = `curl -XGET 'http://paz02app8814:9200/_cluster/nodes/stats'`;
+
+my $json = JSON->new;
+my $data = $json->decode($json_text);
+
+foreach( keys (%$data) ) {
+	print "$_\n";
+}
+
+print "---\n";
+
+#nodes => HASH(0x7f851303c338)
+#cluster_name => rdcsrprod
+while( my($key,$value) = each(%$data) ) {
+	print "$key => $value\n";
+}
+
+my $nodes = $data->{ 'nodes' };
+
+print "---\n";
+
+#AXvkQcA8RxWjACtaIjSNhw => HASH(0x7fe883831d38)
+#pKTodWr8RnWuhj5Yq3m0HQ => HASH(0x7fe883831228)
+my @nodehash_refs;
+while( my($key,$value) = each(%$nodes) ) {
+        print "$key => $value\n";
+	push(@nodehash_refs, $value);
+}
+
+print "---\n";
+
+#transport_address => inet[paz02app8814.sites.homestore.net/10.160.4.196:9300]
+#timestamp => 1385153073283
+#name => paz02app8814.sites.homestore.net
+#indices => HASH(0x7ffed8842ca8)
+#hostname => paz02app8814.sites.homestore.net
+#attributes => HASH(0x7ffed8842c30)
+
+foreach(@nodehash_refs) {
+	my $ref = $_;
+	while( my($key, $value) = each(%$ref) ) {
+		print "For " . $ref->{'name'} . ":\n";
+		my $attributes_ref = $ref->{'attributes'};
+		while( my($key, $value) = each(%$attributes_ref) ) {
+			print "\t$key => $value\n";
+		}
+	}
+}
+
+
+#my $ref1 = $nodehash_refs[0];
+#while( my($key,$value) = each(%$ref1) ) {
+#        print "$key => $value\n";
+#}
+
+#print "---\n";
+
+
+#master => true
+
+#my $ref1_attributes = $ref1->{ 'attributes' };
+#while( my($key,$value) = each(%$ref1_attributes) ) {
+#	print "$key => $value\n";
+#}
+
+

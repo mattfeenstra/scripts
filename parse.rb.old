@@ -1,0 +1,46 @@
+#!/usr/bin/ruby -w
+
+require "rubygems"
+require "json"
+
+def get_hostnames
+
+	nodeshost = parsed["nodes"]
+
+	nodeshost.each do |key, value|
+		puts "\n#{key}-----\n"
+		puts "\t#{value}\n"
+	end
+
+	return 1
+
+end
+
+
+file = open("curl.out")
+json = file.read
+
+parsed = JSON.parse(json)
+
+# something to get node hashes and primary status
+# something to get hostnames for node hashes
+# something to compare hostnames to primary status
+
+
+
+
+get_hostnames
+
+#parsed.each do |key, value|
+#	puts "------\n"
+#	puts "#{key}"
+#	puts "\t#{value}\n"
+#end
+
+#parsed.keys.sort.each do |key|
+#	puts "\n#{key}----\n"
+	#parsed[key].each { |val| puts "\n\t#{val}" }
+#end
+#
+#
+#

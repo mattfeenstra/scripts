@@ -1,0 +1,729 @@
+for host: paz02app8814
+{
+  "cluster_name" : "rdcsrprod",
+  "nodes" : {
+    "pKTodWr8RnWuhj5Yq3m0HQ" : {
+      "timestamp" : 1385152039226,
+      "name" : "paz02app8815.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.197:9300]",
+      "hostname" : "paz02app8815.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 6653,
+          "deleted" : 2
+        },
+        "store" : {
+          "size" : "1.1mb",
+          "size_in_bytes" : 1181024,
+          "throttle_time" : "0s",
+          "throttle_time_in_millis" : 0
+        },
+        "indexing" : {
+          "index_total" : 4296,
+          "index_time" : "6s",
+          "index_time_in_millis" : 6061,
+          "index_current" : 0,
+          "delete_total" : 455,
+          "delete_time" : "155ms",
+          "delete_time_in_millis" : 155,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 13,
+          "get_time" : "20ms",
+          "time_in_millis" : 20,
+          "exists_total" : 7,
+          "exists_time" : "18ms",
+          "exists_time_in_millis" : 18,
+          "missing_total" : 6,
+          "missing_time" : "2ms",
+          "missing_time_in_millis" : 2,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 31,
+          "query_time" : "10ms",
+          "query_time_in_millis" : 10,
+          "query_current" : 0,
+          "fetch_total" : 4,
+          "fetch_time" : "14ms",
+          "fetch_time_in_millis" : 14,
+          "fetch_current" : 0
+        }
+      }
+    },
+    "AXvkQcA8RxWjACtaIjSNhw" : {
+      "timestamp" : 1385152039226,
+      "name" : "paz02app8814.sites.homestore.net",
+      "transport_address" : "inet[paz02app8814.sites.homestore.net/10.160.4.196:9300]",
+      "hostname" : "paz02app8814.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 0,
+          "deleted" : 0
+        },
+        "store" : {
+          "size" : "6.1kb",
+          "size_in_bytes" : 6270,
+          "throttle_time" : "0s",
+          "throttle_time_in_millis" : 0
+        },
+        "indexing" : {
+          "index_total" : 74,
+          "index_time" : "271ms",
+          "index_time_in_millis" : 271,
+          "index_current" : 1,
+          "delete_total" : 2,
+          "delete_time" : "6ms",
+          "delete_time_in_millis" : 6,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 1,
+          "get_time" : "1ms",
+          "time_in_millis" : 1,
+          "exists_total" : 0,
+          "exists_time" : "0s",
+          "exists_time_in_millis" : 0,
+          "missing_total" : 1,
+          "missing_time" : "1ms",
+          "missing_time_in_millis" : 1,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 3,
+          "query_time" : "4ms",
+          "query_time_in_millis" : 4,
+          "query_current" : 0,
+          "fetch_total" : 0,
+          "fetch_time" : "0s",
+          "fetch_time_in_millis" : 0,
+          "fetch_current" : 0
+        }
+      }
+    }
+  }
+}for host: paz02app8815
+{
+  "cluster_name" : "rdcsrprod",
+  "nodes" : {
+    "pKTodWr8RnWuhj5Yq3m0HQ" : {
+      "timestamp" : 1385152039472,
+      "name" : "paz02app8815.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.197:9300]",
+      "hostname" : "paz02app8815.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 6653,
+          "deleted" : 2
+        },
+        "store" : {
+          "size" : "1.1mb",
+          "size_in_bytes" : 1181024,
+          "throttle_time" : "0s",
+          "throttle_time_in_millis" : 0
+        },
+        "indexing" : {
+          "index_total" : 4296,
+          "index_time" : "6s",
+          "index_time_in_millis" : 6061,
+          "index_current" : 0,
+          "delete_total" : 455,
+          "delete_time" : "155ms",
+          "delete_time_in_millis" : 155,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 13,
+          "get_time" : "20ms",
+          "time_in_millis" : 20,
+          "exists_total" : 7,
+          "exists_time" : "18ms",
+          "exists_time_in_millis" : 18,
+          "missing_total" : 6,
+          "missing_time" : "2ms",
+          "missing_time_in_millis" : 2,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 31,
+          "query_time" : "10ms",
+          "query_time_in_millis" : 10,
+          "query_current" : 0,
+          "fetch_total" : 4,
+          "fetch_time" : "14ms",
+          "fetch_time_in_millis" : 14,
+          "fetch_current" : 0
+        }
+      }
+    },
+    "AXvkQcA8RxWjACtaIjSNhw" : {
+      "timestamp" : 1385152039473,
+      "name" : "paz02app8814.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.196:9300]",
+      "hostname" : "paz02app8814.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 0,
+          "deleted" : 0
+        },
+        "store" : {
+          "size" : "6.1kb",
+          "size_in_bytes" : 6270,
+          "throttle_time" : "0s",
+          "throttle_time_in_millis" : 0
+        },
+        "indexing" : {
+          "index_total" : 74,
+          "index_time" : "271ms",
+          "index_time_in_millis" : 271,
+          "index_current" : 1,
+          "delete_total" : 2,
+          "delete_time" : "6ms",
+          "delete_time_in_millis" : 6,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 1,
+          "get_time" : "1ms",
+          "time_in_millis" : 1,
+          "exists_total" : 0,
+          "exists_time" : "0s",
+          "exists_time_in_millis" : 0,
+          "missing_total" : 1,
+          "missing_time" : "1ms",
+          "missing_time_in_millis" : 1,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 3,
+          "query_time" : "4ms",
+          "query_time_in_millis" : 4,
+          "query_current" : 0,
+          "fetch_total" : 0,
+          "fetch_time" : "0s",
+          "fetch_time_in_millis" : 0,
+          "fetch_current" : 0
+        }
+      }
+    }
+  }
+}for host: paz02app8816
+for host: paz02app8824
+{
+  "cluster_name" : "rdcsrdev",
+  "nodes" : {
+    "gQNc0C8GQ2KM7WRfiZvYvQ" : {
+      "timestamp" : 1385152039912,
+      "name" : "paz02app8824.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.233:9300]",
+      "hostname" : "paz02app8824.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 1131480,
+          "deleted" : 12283
+        },
+        "store" : {
+          "size" : "155.7mb",
+          "size_in_bytes" : 163298054,
+          "throttle_time" : "3.1s",
+          "throttle_time_in_millis" : 3179
+        },
+        "indexing" : {
+          "index_total" : 1782,
+          "index_time" : "1.3m",
+          "index_time_in_millis" : 81389,
+          "index_current" : 0,
+          "delete_total" : 1936,
+          "delete_time" : "1.2m",
+          "delete_time_in_millis" : 74057,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 0,
+          "get_time" : "0s",
+          "time_in_millis" : 0,
+          "exists_total" : 0,
+          "exists_time" : "0s",
+          "exists_time_in_millis" : 0,
+          "missing_total" : 0,
+          "missing_time" : "0s",
+          "missing_time_in_millis" : 0,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 0,
+          "query_time" : "0s",
+          "query_time_in_millis" : 0,
+          "query_current" : 0,
+          "fetch_total" : 0,
+          "fetch_time" : "0s",
+          "fetch_time_in_millis" : 0,
+          "fetch_current" : 0
+        }
+      }
+    },
+    "mOYxxg8lRtS0h2tX0Ns3Eg" : {
+      "timestamp" : 1385152039912,
+      "name" : "paz02app8826.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.235:9300]",
+      "hostname" : "paz02app8826.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 1131480,
+          "deleted" : 12285
+        },
+        "store" : {
+          "size" : "155.7mb",
+          "size_in_bytes" : 163306249,
+          "throttle_time" : "3.1s",
+          "throttle_time_in_millis" : 3102
+        },
+        "indexing" : {
+          "index_total" : 1752,
+          "index_time" : "4.2s",
+          "index_time_in_millis" : 4212,
+          "index_current" : 0,
+          "delete_total" : 1900,
+          "delete_time" : "772ms",
+          "delete_time_in_millis" : 772,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 0,
+          "get_time" : "0s",
+          "time_in_millis" : 0,
+          "exists_total" : 0,
+          "exists_time" : "0s",
+          "exists_time_in_millis" : 0,
+          "missing_total" : 0,
+          "missing_time" : "0s",
+          "missing_time_in_millis" : 0,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 0,
+          "query_time" : "0s",
+          "query_time_in_millis" : 0,
+          "query_current" : 0,
+          "fetch_total" : 0,
+          "fetch_time" : "0s",
+          "fetch_time_in_millis" : 0,
+          "fetch_current" : 0
+        }
+      }
+    },
+    "YOb_qz4fSd27gD-UlrnyHQ" : {
+      "timestamp" : 1385152039912,
+      "name" : "paz02app8825.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.234:9300]",
+      "hostname" : "paz02app8825.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 1131480,
+          "deleted" : 12283
+        },
+        "store" : {
+          "size" : "155.7mb",
+          "size_in_bytes" : 163298690,
+          "throttle_time" : "3.2s",
+          "throttle_time_in_millis" : 3208
+        },
+        "indexing" : {
+          "index_total" : 1765,
+          "index_time" : "2.9s",
+          "index_time_in_millis" : 2935,
+          "index_current" : 0,
+          "delete_total" : 1922,
+          "delete_time" : "647ms",
+          "delete_time_in_millis" : 647,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 0,
+          "get_time" : "0s",
+          "time_in_millis" : 0,
+          "exists_total" : 0,
+          "exists_time" : "0s",
+          "exists_time_in_millis" : 0,
+          "missing_total" : 0,
+          "missing_time" : "0s",
+          "missing_time_in_millis" : 0,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 0,
+          "query_time" : "0s",
+          "query_time_in_millis" : 0,
+          "query_current" : 0,
+          "fetch_total" : 0,
+          "fetch_time" : "0s",
+          "fetch_time_in_millis" : 0,
+          "fetch_current" : 0
+        }
+      }
+    }
+  }
+}for host: paz02app8825
+{
+  "cluster_name" : "rdcsrdev",
+  "nodes" : {
+    "gQNc0C8GQ2KM7WRfiZvYvQ" : {
+      "timestamp" : 1385152040154,
+      "name" : "paz02app8824.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.233:9300]",
+      "hostname" : "paz02app8824.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 1131480,
+          "deleted" : 12283
+        },
+        "store" : {
+          "size" : "155.7mb",
+          "size_in_bytes" : 163298054,
+          "throttle_time" : "3.1s",
+          "throttle_time_in_millis" : 3179
+        },
+        "indexing" : {
+          "index_total" : 1782,
+          "index_time" : "1.3m",
+          "index_time_in_millis" : 81389,
+          "index_current" : 0,
+          "delete_total" : 1936,
+          "delete_time" : "1.2m",
+          "delete_time_in_millis" : 74057,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 0,
+          "get_time" : "0s",
+          "time_in_millis" : 0,
+          "exists_total" : 0,
+          "exists_time" : "0s",
+          "exists_time_in_millis" : 0,
+          "missing_total" : 0,
+          "missing_time" : "0s",
+          "missing_time_in_millis" : 0,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 0,
+          "query_time" : "0s",
+          "query_time_in_millis" : 0,
+          "query_current" : 0,
+          "fetch_total" : 0,
+          "fetch_time" : "0s",
+          "fetch_time_in_millis" : 0,
+          "fetch_current" : 0
+        }
+      }
+    },
+    "mOYxxg8lRtS0h2tX0Ns3Eg" : {
+      "timestamp" : 1385152040154,
+      "name" : "paz02app8826.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.235:9300]",
+      "hostname" : "paz02app8826.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 1131480,
+          "deleted" : 12285
+        },
+        "store" : {
+          "size" : "155.7mb",
+          "size_in_bytes" : 163306249,
+          "throttle_time" : "3.1s",
+          "throttle_time_in_millis" : 3102
+        },
+        "indexing" : {
+          "index_total" : 1752,
+          "index_time" : "4.2s",
+          "index_time_in_millis" : 4212,
+          "index_current" : 0,
+          "delete_total" : 1900,
+          "delete_time" : "772ms",
+          "delete_time_in_millis" : 772,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 0,
+          "get_time" : "0s",
+          "time_in_millis" : 0,
+          "exists_total" : 0,
+          "exists_time" : "0s",
+          "exists_time_in_millis" : 0,
+          "missing_total" : 0,
+          "missing_time" : "0s",
+          "missing_time_in_millis" : 0,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 0,
+          "query_time" : "0s",
+          "query_time_in_millis" : 0,
+          "query_current" : 0,
+          "fetch_total" : 0,
+          "fetch_time" : "0s",
+          "fetch_time_in_millis" : 0,
+          "fetch_current" : 0
+        }
+      }
+    },
+    "YOb_qz4fSd27gD-UlrnyHQ" : {
+      "timestamp" : 1385152040153,
+      "name" : "paz02app8825.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.234:9300]",
+      "hostname" : "paz02app8825.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 1131480,
+          "deleted" : 12283
+        },
+        "store" : {
+          "size" : "155.7mb",
+          "size_in_bytes" : 163298690,
+          "throttle_time" : "3.2s",
+          "throttle_time_in_millis" : 3208
+        },
+        "indexing" : {
+          "index_total" : 1765,
+          "index_time" : "2.9s",
+          "index_time_in_millis" : 2935,
+          "index_current" : 0,
+          "delete_total" : 1922,
+          "delete_time" : "647ms",
+          "delete_time_in_millis" : 647,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 0,
+          "get_time" : "0s",
+          "time_in_millis" : 0,
+          "exists_total" : 0,
+          "exists_time" : "0s",
+          "exists_time_in_millis" : 0,
+          "missing_total" : 0,
+          "missing_time" : "0s",
+          "missing_time_in_millis" : 0,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 0,
+          "query_time" : "0s",
+          "query_time_in_millis" : 0,
+          "query_current" : 0,
+          "fetch_total" : 0,
+          "fetch_time" : "0s",
+          "fetch_time_in_millis" : 0,
+          "fetch_current" : 0
+        }
+      }
+    }
+  }
+}for host: paz02app8826
+{
+  "cluster_name" : "rdcsrdev",
+  "nodes" : {
+    "gQNc0C8GQ2KM7WRfiZvYvQ" : {
+      "timestamp" : 1385152040407,
+      "name" : "paz02app8824.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.233:9300]",
+      "hostname" : "paz02app8824.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 1131480,
+          "deleted" : 12283
+        },
+        "store" : {
+          "size" : "155.7mb",
+          "size_in_bytes" : 163298054,
+          "throttle_time" : "3.1s",
+          "throttle_time_in_millis" : 3179
+        },
+        "indexing" : {
+          "index_total" : 1782,
+          "index_time" : "1.3m",
+          "index_time_in_millis" : 81389,
+          "index_current" : 0,
+          "delete_total" : 1936,
+          "delete_time" : "1.2m",
+          "delete_time_in_millis" : 74057,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 0,
+          "get_time" : "0s",
+          "time_in_millis" : 0,
+          "exists_total" : 0,
+          "exists_time" : "0s",
+          "exists_time_in_millis" : 0,
+          "missing_total" : 0,
+          "missing_time" : "0s",
+          "missing_time_in_millis" : 0,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 0,
+          "query_time" : "0s",
+          "query_time_in_millis" : 0,
+          "query_current" : 0,
+          "fetch_total" : 0,
+          "fetch_time" : "0s",
+          "fetch_time_in_millis" : 0,
+          "fetch_current" : 0
+        }
+      }
+    },
+    "mOYxxg8lRtS0h2tX0Ns3Eg" : {
+      "timestamp" : 1385152040405,
+      "name" : "paz02app8826.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.235:9300]",
+      "hostname" : "paz02app8826.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 1131480,
+          "deleted" : 12285
+        },
+        "store" : {
+          "size" : "155.7mb",
+          "size_in_bytes" : 163306249,
+          "throttle_time" : "3.1s",
+          "throttle_time_in_millis" : 3102
+        },
+        "indexing" : {
+          "index_total" : 1752,
+          "index_time" : "4.2s",
+          "index_time_in_millis" : 4212,
+          "index_current" : 0,
+          "delete_total" : 1900,
+          "delete_time" : "772ms",
+          "delete_time_in_millis" : 772,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 0,
+          "get_time" : "0s",
+          "time_in_millis" : 0,
+          "exists_total" : 0,
+          "exists_time" : "0s",
+          "exists_time_in_millis" : 0,
+          "missing_total" : 0,
+          "missing_time" : "0s",
+          "missing_time_in_millis" : 0,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 0,
+          "query_time" : "0s",
+          "query_time_in_millis" : 0,
+          "query_current" : 0,
+          "fetch_total" : 0,
+          "fetch_time" : "0s",
+          "fetch_time_in_millis" : 0,
+          "fetch_current" : 0
+        }
+      }
+    },
+    "YOb_qz4fSd27gD-UlrnyHQ" : {
+      "timestamp" : 1385152040406,
+      "name" : "paz02app8825.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.234:9300]",
+      "hostname" : "paz02app8825.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 1131480,
+          "deleted" : 12283
+        },
+        "store" : {
+          "size" : "155.7mb",
+          "size_in_bytes" : 163298690,
+          "throttle_time" : "3.2s",
+          "throttle_time_in_millis" : 3208
+        },
+        "indexing" : {
+          "index_total" : 1765,
+          "index_time" : "2.9s",
+          "index_time_in_millis" : 2935,
+          "index_current" : 0,
+          "delete_total" : 1922,
+          "delete_time" : "647ms",
+          "delete_time_in_millis" : 647,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 0,
+          "get_time" : "0s",
+          "time_in_millis" : 0,
+          "exists_total" : 0,
+          "exists_time" : "0s",
+          "exists_time_in_millis" : 0,
+          "missing_total" : 0,
+          "missing_time" : "0s",
+          "missing_time_in_millis" : 0,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 0,
+          "query_time" : "0s",
+          "query_time_in_millis" : 0,
+          "query_current" : 0,
+          "fetch_total" : 0,
+          "fetch_time" : "0s",
+          "fetch_time_in_millis" : 0,
+          "fetch_current" : 0
+        }
+      }
+    }
+  }
+}

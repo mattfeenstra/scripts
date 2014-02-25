@@ -1,0 +1,167 @@
+{
+  "cluster_name" : "rdcsrdev",
+  "nodes" : {
+    "gQNc0C8GQ2KM7WRfiZvYvQ" : {
+      "timestamp" : 1385157207527,
+      "name" : "paz02app8824.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.233:9300]",
+      "hostname" : "paz02app8824.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 1131480,
+          "deleted" : 12283
+        },
+        "store" : {
+          "size" : "155.7mb",
+          "size_in_bytes" : 163298054,
+          "throttle_time" : "3.1s",
+          "throttle_time_in_millis" : 3179
+        },
+        "indexing" : {
+          "index_total" : 1782,
+          "index_time" : "1.3m",
+          "index_time_in_millis" : 81389,
+          "index_current" : 0,
+          "delete_total" : 1936,
+          "delete_time" : "1.2m",
+          "delete_time_in_millis" : 74057,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 0,
+          "get_time" : "0s",
+          "time_in_millis" : 0,
+          "exists_total" : 0,
+          "exists_time" : "0s",
+          "exists_time_in_millis" : 0,
+          "missing_total" : 0,
+          "missing_time" : "0s",
+          "missing_time_in_millis" : 0,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 0,
+          "query_time" : "0s",
+          "query_time_in_millis" : 0,
+          "query_current" : 0,
+          "fetch_total" : 0,
+          "fetch_time" : "0s",
+          "fetch_time_in_millis" : 0,
+          "fetch_current" : 0
+        }
+      }
+    },
+    "mOYxxg8lRtS0h2tX0Ns3Eg" : {
+      "timestamp" : 1385157207526,
+      "name" : "paz02app8826.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.235:9300]",
+      "hostname" : "paz02app8826.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 1131480,
+          "deleted" : 12285
+        },
+        "store" : {
+          "size" : "155.7mb",
+          "size_in_bytes" : 163306249,
+          "throttle_time" : "3.1s",
+          "throttle_time_in_millis" : 3102
+        },
+        "indexing" : {
+          "index_total" : 1752,
+          "index_time" : "4.2s",
+          "index_time_in_millis" : 4212,
+          "index_current" : 0,
+          "delete_total" : 1900,
+          "delete_time" : "772ms",
+          "delete_time_in_millis" : 772,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 0,
+          "get_time" : "0s",
+          "time_in_millis" : 0,
+          "exists_total" : 0,
+          "exists_time" : "0s",
+          "exists_time_in_millis" : 0,
+          "missing_total" : 0,
+          "missing_time" : "0s",
+          "missing_time_in_millis" : 0,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 0,
+          "query_time" : "0s",
+          "query_time_in_millis" : 0,
+          "query_current" : 0,
+          "fetch_total" : 0,
+          "fetch_time" : "0s",
+          "fetch_time_in_millis" : 0,
+          "fetch_current" : 0
+        }
+      }
+    },
+    "YOb_qz4fSd27gD-UlrnyHQ" : {
+      "timestamp" : 1385157207525,
+      "name" : "paz02app8825.sites.homestore.net",
+      "transport_address" : "inet[/10.160.4.234:9300]",
+      "hostname" : "paz02app8825.sites.homestore.net",
+      "attributes" : {
+        "master" : "true"
+      },
+      "indices" : {
+        "docs" : {
+          "count" : 1131480,
+          "deleted" : 12283
+        },
+        "store" : {
+          "size" : "155.7mb",
+          "size_in_bytes" : 163298690,
+          "throttle_time" : "3.2s",
+          "throttle_time_in_millis" : 3208
+        },
+        "indexing" : {
+          "index_total" : 1765,
+          "index_time" : "2.9s",
+          "index_time_in_millis" : 2935,
+          "index_current" : 0,
+          "delete_total" : 1922,
+          "delete_time" : "647ms",
+          "delete_time_in_millis" : 647,
+          "delete_current" : 0
+        },
+        "get" : {
+          "total" : 0,
+          "get_time" : "0s",
+          "time_in_millis" : 0,
+          "exists_total" : 0,
+          "exists_time" : "0s",
+          "exists_time_in_millis" : 0,
+          "missing_total" : 0,
+          "missing_time" : "0s",
+          "missing_time_in_millis" : 0,
+          "current" : 0
+        },
+        "search" : {
+          "open_contexts" : 0,
+          "query_total" : 0,
+          "query_time" : "0s",
+          "query_time_in_millis" : 0,
+          "query_current" : 0,
+          "fetch_total" : 0,
+          "fetch_time" : "0s",
+          "fetch_time_in_millis" : 0,
+          "fetch_current" : 0
+        }
+      }
+    }
+  }
+}
